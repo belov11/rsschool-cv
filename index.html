@@ -4,8 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My CV</title>
 </head>
 <body>
+    <div class="wrapper">
+            <header class="aside__header">
+                <div class="aside__image">
+                    <img src="img/myphoto.jpg" alt="mylogo">
+                </div>
+                <h1 class="aside__name">
+                    Pavel Belov
+                </h1>
+                <h2 class="aside__job">
+                    Web Developer
+                </h2>
+            </header>
+            <main>
+                <section class="section__main">
+                    <h3 class="section__about">
+                        About Me
+                    </h3>
+                    <p class="section__info">
+                        My name is Pavel Belov. I live in Minsk. I like programming. At the moment I study English. I am a responsible and attentive person. Achieve the set tasks in my work. I work as a tester of household equipment. I prefer healthy lifestyle.     
+                    </p>
+                    <div class="section__skills">
+                        <div class="section__proffesional-skill">
+                            <h4 class="section__skill-name">Professional skill</h4>
+                            <div class="section__hardskills">
+                                <ul>
+                                    <li><span class="skills__point"></span>HTML</li>
+                                    <li><span class="skills__point"></span>CSS</li>
+                                    <li><span class="skills__point"></span>JavaScript (Basic)</li>
+                                    <li><span class="skills__point"></span>Figma</li>
+                                    <li><span class="skills__point"></span>Visual Studio Code</li>
+                                    <li><span class="skills__point"></span>GitHub</li>
+                                </ul>
+                            </div>                        
+                        </div>
+                        <div class="section__personal-skills">
+                            <h4 class="section__skill-name">Personal skill</h4>
+                            <div class="section__softskills">
+                                <ul>
+                                    <li><span class="skills__point"></span>Creative</li>
+                                    <li><span class="skills__point"></span>Team Work</li>
+                                    <li><span class="skills__point"></span>Communication</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section__contacts">
+                    <h3 class="section__contact-name">Contact</h3>
+                    <div class="section__social">
+                        <div class="section__social-box1">
+                            <div class="section__telephone">
+                                <ul class="section__mobile-number">
+                                    <li><a href="tel:+375445854935"><img src="img/phone-call.png" alt="icon mobile"></a></li>
+                                </ul>
+                            </div>
+                            <div class="section__mobile-phone">+375445854935</div>                                
+                        </div>
+                        <div class="section__social-box2">
+                            <div class="section__telegram">
+                                <ul class="section__telegram-link">
+                                    <li><a href="https://t.me/pavelbelov1"> <img src="img/telegram.png" alt="icon telegram"></a></li> 
+                                </ul>
+                            </div>
+                            <div class="section__telegram-message">@pavelbelov1</div>                                
+                        </div>
+                        <div class="section__social-box3">                            
+                            <div class="section__email">
+                                <ul class="section__email-link">
+                                    <li><a href="mailto:Pasha_Belov_96@mail.ru"> <img src="img/email.png" alt="icon email"></a></li>
+                                </ul>
+                            </div>
+                            <div class="section__email-profile">Pasha_Belov_96@mail.ru</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section__info">
+                    <div class="section__experience">
+                        <h3 class="section__experience-status">Job Experience</h3>
+                        <p style="color: rgba(19, 165, 214, 1);"><i>Simple Code:</i></p>
+                        <pre>
+                            <code class="section__experience-info">
+function getParticipants(handshakes) {
+
+    return Math.ceil((1 + Math.sqrt(handshakes * 8 + 1)) / 2);
+    }
+                            </code>
+                        </pre>
+                    </div>
+                    <div class="section__education">
+                        <h3 class="section__education-status">Education</h3>
+                        <div class="section__education-info">
+                            <p><i style="color: rgba(19, 165, 214, 1);">University:</i></p>
+                            <ul> 
+                                <li>BNTU, Power Engineering Faculty. Master's Degree - BNTU, Quality Control</li>
+                            </ul>
+                            <p><i style="color: rgba(19, 165, 214, 1);">Courses:</i></p>
+                                <ul>
+                                    <li><a href="https://app.rs.school/certificate/idjyrpk6">RS/FE Pre-School</a></li>
+                                    <li><a href="https://learn.javascript.ru/">JavaScript manual</a></li>
+                                </ul>
+                            
+                        </div>
+                    </div>
+                </section>
+                <section class="section__languages">
+                    <h3 class="section__skill-languages">Language</h3>
+                    <div class="section__language-box1">English - <span>A2 (studying with a coach)</span>                      
+                    </div>
+                    <div class="section__language-box2">Russian - <span>Native</span>                    
+                    </div>
+                </section>    
+            </main>
+            <footer class="footer">
+                <div class="footer__info">
+                    <a href="https://github.com/belov11"><img src="img/git.png" alt="logoGit"></a>
+                    <p class="footer__year">2022</p>
+                    <a href="https://rs.school/js/"><img src="img/rs_school.svg" alt="RSschool"></a>
+                </div>
+            </footer>
+    </div>    
 </body>
 </html>
