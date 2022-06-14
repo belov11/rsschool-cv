@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 li {
   list-style-type: none;
   margin: 0;
@@ -24,6 +27,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
   background-color: rgb(46, 63, 79);
   padding: 30px 20px 0 20px;
   font-family: "Noto Sans JP";
+  min-width: 250px;
 }
 .aside__image {
   max-width: 30%;
@@ -47,6 +51,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
   color: #ffffff;
   text-align: center;
   font-weight: 400;
+}
+.aside__nav {
+  margin-bottom: 30px;
+}
+.aside__nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1100px) {
+  .aside__nav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  } 
+}
+.aside__nav a:hover {
+  color: rgba(19, 165, 214, 1);
+  transition: 0.5s;
 }
 .section__about {
   color: rgba(19, 165, 214, 1);
