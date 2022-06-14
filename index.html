@@ -14,6 +14,16 @@
 <body>
     <div class="wrapper">
             <header class="aside__header">
+                <nav class="aside__nav">
+                    <ul>
+                        <li><a href="#info">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                        <li><a href="#simplecode">Code</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#lang">Languages</a></li>
+                    </ul>
+                </nav>
                 <div class="aside__image">
                     <img src="img/myphoto.jpg" alt="mylogo">
                 </div>
@@ -25,14 +35,15 @@
                 </h2>
             </header>
             <main>
-                <section class="section__main">
+                <section id="info" class="section__main">
                     <h3 class="section__about">
                         About Me
                     </h3>
                     <p class="section__info">
                         My name is Pavel Belov. I live in Minsk. I like programming. At the moment I study English. I am a responsible and attentive person. Achieve the set tasks in my work. I work as a tester of household equipment. I prefer healthy lifestyle.     
                     </p>
-                    <div class="section__skills">
+                </section>    
+                <section id="skills" class="section__skills">
                         <div class="section__proffesional-skill">
                             <h4 class="section__skill-name">Professional skill</h4>
                             <div class="section__hardskills">
@@ -56,9 +67,8 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                </section>
-                <section class="section__contacts">
+                </section>                
+                <section id="contacts" class="section__contacts">
                     <h3 class="section__contact-name">Contact</h3>
                     <div class="section__social">
                         <div class="section__social-box1">
@@ -87,20 +97,18 @@
                         </div>
                     </div>
                 </section>
-                <section class="section__info">
-                    <div class="section__experience">
+                <section id="simplecode" class="section__experience">
                         <h3 class="section__experience-status">Job Experience</h3>
                         <p style="color: rgba(19, 165, 214, 1);"><i>Simple Code:</i></p>
                         <pre>
                             <code class="section__experience-info">
 function getParticipants(handshakes) {
-
     return Math.ceil((1 + Math.sqrt(handshakes * 8 + 1)) / 2);
     }
                             </code>
                         </pre>
-                    </div>
-                    <div class="section__education">
+                </section>
+                <section id="education" class="section__education">
                         <h3 class="section__education-status">Education</h3>
                         <div class="section__education-info">
                             <p><i style="color: rgba(19, 165, 214, 1);">University:</i></p>
@@ -114,9 +122,8 @@ function getParticipants(handshakes) {
                                 </ul>
                             
                         </div>
-                    </div>
                 </section>
-                <section class="section__languages">
+                <section id="lang" class="section__languages">
                     <h3 class="section__skill-languages">Language</h3>
                     <div class="section__language-box1">English - <span>A2 (studying with a coach)</span>                      
                     </div>
