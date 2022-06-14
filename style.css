@@ -29,11 +29,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
   font-family: "Noto Sans JP";
   min-width: 250px;
 }
-@media (max-width: 600px) {
-  .wrapper {
-    margin: 10px 30px;
-  }
-}
 .aside__image {
   max-width: 30%;
   margin: 0px auto;
@@ -67,6 +62,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', end
 @media (max-width: 1100px) {
   .wrapper {
     margin: 100px 100px 0 100px;
+  }
+  @media (max-width: 600px) {
+    .wrapper {
+      margin: 10px 30px;
+    }
   }
   .aside__nav ul {
     display: flex;
