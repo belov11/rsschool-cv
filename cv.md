@@ -22,9 +22,19 @@ Success doesn't come to you…you go to it.
 ### Code example
 
 ```
-function getParticipants(handshakes) {
-    return Math.ceil((1 + Math.sqrt(handshakes * 8 + 1)) / 2);
+function rgb(r, g, b){
+  r < 0 ? r = "00" : r;
+  r > 255 ? r = "FF" : r;
+  g < 0 ? g = "00" : g;
+  g > 255 ? g = "FF" : g;
+  b < 0 ? b = "00" : b;
+  b > 255 ? b = "FF" : b;
 
+  r.toString(16).toUpperCase().length < 2 ? r = "0" + r.toString(16).toUpperCase() : r = r.toString(16).toUpperCase();
+  g.toString(16).toUpperCase().length < 2 ? g = "0" + g.toString(16).toUpperCase() : g = g.toString(16).toUpperCase();
+  b.toString(16).toUpperCase().length < 2 ? b = "0" + b.toString(16).toUpperCase() : b = b.toString(16).toUpperCase();
+  
+  return r + g + b; 
 }
 ```
 ********
