@@ -1,0 +1,19 @@
+@import url('./nullingstyle.css');
+
+:root {
+    --black: #1e2532;
+    --white: white;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: var(--black);
+}
+.header-container {
+    max-width: 1200px;
+    color: var(--white);
+}
+.header-contact {
+    
+}
