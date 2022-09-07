@@ -84,7 +84,7 @@ h1 {
 }
 h2 {
     font-size: 2.5rem;
-    flex: 0 1 40%;
+    flex: 0 0 20%;
 }
 .info-basic {
     margin-left: 80px;
@@ -114,7 +114,7 @@ h3 {
     flex: 0 1 33.33%;
     padding-bottom: 10px;
 }
-.personal-skills_list li span{
+span{
     display: inline-block;
     width: 12px;
     height: 12px;
@@ -136,10 +136,30 @@ h3 {
     display: flex;
 }
 .expample-body {
+    max-width: 600px;
     display: flex;
     flex-direction: column;
+    margin-left: 80px;
 }
-pre {
-    max-width: 600px;
-    overflow-x: auto;
+.education {
+    padding: 50px 0;
+    color: var(--white);
+    border: 3px solid var(--white);
+    border-top: none;
+}
+.education-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.education-body {
+    display: flex;
+}
+.education-info_body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.education-info_list {
+    font-size: 1.4rem;
+    padding-bottom: 10px;
 }
