@@ -1,0 +1,44 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+/* Style reset */
+
+a {
+    text-decoration: none;
+    color: white;
+  }
+ul, li {
+    list-style-type: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+input {
+    border: none;
+    outline: none;
+}
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
