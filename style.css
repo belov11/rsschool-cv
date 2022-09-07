@@ -89,7 +89,7 @@ h2 {
 .info-basic {
     margin-left: 80px;
 }
-.quote {
+h3 {
     font-size: 2.0rem;
     font-weight: 500;
     padding-bottom: 20px;
@@ -99,7 +99,7 @@ h2 {
     padding-bottom: 20px;
 }
 .personal-skills {
-    
+
 }
 .personal-skills p {
     font-size: 1.6rem;
@@ -121,4 +121,25 @@ h2 {
     border-radius: 50%;
     border: 3px solid white;
     margin-right: 10px;
+}
+.sample-code {
+    padding: 50px 0;
+    color: var(--white);
+    border: 3px solid var(--white);
+    border-top: none;
+}
+.sample-code_container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.sample-code_body {
+    display: flex;
+}
+.expample-body {
+    display: flex;
+    flex-direction: column;
+}
+pre {
+    max-width: 600px;
+    overflow-x: auto;
 }
