@@ -1,0 +1,124 @@
+@import url('./nullingstyle.css');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+
+:root {
+    --black: #1e2532;
+    --white: white;
+}
+
+
+.wrapper {
+    font-family: Raleway;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: var(--black);
+}
+header {
+    border: 3px solid var(--white);
+    padding-bottom: 50px;
+}
+.header-nav {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    color: var(--white);
+    border-bottom: 3px solid var(--white);
+}
+.header-nav_list {
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav_list li {
+    flex: 0 1 16%;
+    text-align: center;
+}
+.header-container {
+    margin: 0 auto;
+    max-width: 1000px;
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-contact {
+    margin: 10px;
+}
+.header-contact_list li {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 150%;
+}
+.header-info {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 60px;
+}
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.header-logo {
+    max-width: 300px;
+    margin-right: 20px;
+}
+.header-logo img {
+    width: 100%;
+    border-radius: 50%;
+}
+.header-contact_list {
+    font-size: 1.0rem;
+}
+.info {
+    padding: 50px 0;
+    color: var(--white);
+    border: 3px solid var(--white);
+    border-top: none;
+}
+.info-container {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+}
+h2 {
+    font-size: 2.5rem;
+    flex: 0 1 40%;
+}
+.info-basic {
+    margin-left: 80px;
+}
+.quote {
+    font-size: 2.0rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.profile {
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+}
+.personal-skills {
+    
+}
+.personal-skills p {
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+}
+.personal-skills_list {
+    font-size: 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.personal-skills_list li{
+    flex: 0 1 33.33%;
+    padding-bottom: 10px;
+}
+.personal-skills_list li span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-right: 10px;
+}
